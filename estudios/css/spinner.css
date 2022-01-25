@@ -1,0 +1,245 @@
+.loader,
+.loader:before,
+.loader:after {
+  background: #47dd22;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader {
+  color: #47dd22;
+  text-indent: -9999em;
+  margin: 3px auto;
+  position: relative;
+  font-size: 4px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
+#descarga a {
+  color: #28a745 !important;
+}
+
+#descarga{
+  width: 68%;
+}
+
+#contacta{
+  width: 30%;
+  cursor:pointer;
+}
+#contacta, #descarga{
+    display:  inline-block;
+    vertical-align: top;
+}
+
+
+.text-danger{
+  font-size: .7em;
+  position: absolute;
+}
+.titulo-tabla{
+  background: #71b500;
+}
+.retorno{
+  background: #F36;
+  color: white;
+  position: relative;
+  max-width: 100%;              
+  left: -9px;
+}
+.tablanormal{
+  background:#34495E;
+  color:white;  
+}
+
+.tablanormal2{
+  background:#34495E;
+  color:white;  
+}
+
+.OpcionCubo{
+  display : inline-block;
+  max-width:400px;
+  height:20%;
+  font-family:Calibri, Verdana, Geneva, sans-serif;
+  padding:25px;
+  background-color:#f7f7f7;
+  border-radius:10px ; 
+  -moz-border-radius:10px ;  /* Firefox */ 
+  -webkit-border-radius:10px ;  /* Safari y Chrome */ 	
+  position:relative;	
+  margin:10px 20px;
+  text-align:left;
+  
+}
+.tituloOpcionCubo{
+  background-color:#1570a6;
+  color:#FFF;
+  width:280px;
+  height:30px;
+  padding:10px;
+  margin-left:-25px;
+  font-family:Calibri, Verdana, Geneva, sans-serif;
+}
+.table {
+text-align:center;
+}
+h3{
+  margin: 15px 0px;
+}
+h2,h5,h3{
+  color:black;
+  font-weight:400;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+.modal-lg {
+  max-width: 980px;
+  } 
+}
+
+
+@keyframes bounce{
+  0%{
+    transform: scale(0);
+  }
+  80%{
+    transform: scale(1.12);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.bounce-enter-active{
+  animation: bounce .5s;
+}
+.bounce-leave-active{
+  animation: bounce .5s;
+}
+/*.fade-leave-active*/
+.fade-enter-active{
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-enter, .fade-leave-active{
+  opacity: 0;
+  transform:translateX(300px) 
+}
+.mbntb{
+    min-height:38px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: .90rem;
+    line-height: 1.5;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;	
+    
+}
+
+.modal-body {
+  height: 600px;
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-header{
+    display: inline-block;
+  }
+  .miBtn{
+  	padding-left:1rem!important;
+   }
+  .mc{
+  	padding: 0px 3px ;
+  }
+  .form-group {
+    margin-bottom: 1.2rem;
+}
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#app{
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.form-group {
+    margin-bottom: 1.7rem;
+}
+
+

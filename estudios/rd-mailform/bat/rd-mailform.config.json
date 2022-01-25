@@ -1,0 +1,9 @@
+  
+{
+  "useSmtp": false,
+  "host": "",              
+  "port": 0,													 
+  "username": "",					 
+  "password": "",						 
+  "recipientEmail":  "manuel@max4technologies.com,alejandro@max4technologies.com,francisco.medina@max4technologies.com,david@max4technologies.com,ruben.garcia@max4technologies.com"		 
+}

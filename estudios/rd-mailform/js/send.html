@@ -1,0 +1,58 @@
+<div class="alert alert-warning alert-dismissible fade show d-none" role="alert" id="alertResponse">
+    <strong id="alertTitle">Holy guacamole!</strong>
+   <p id="alertMessage">You should check in on some of those fields below.</p>
+   <button type="button" class="close" id="closeAlert" aria-label="Close">
+       <span aria-hidden="true">&times;</span>
+   </button>
+</div>
+
+<!--SendEmailScript-->
+    <script type="text/javascript">
+        $("#closeAlert").on('click', function(){
+            $("#alertResponse").removeClass().addClass("alert alert-warning alert-dismissible fade show d-none");
+        });
+        $("#contactSubmit").on('click', function(){
+            $("#alertResponse").removeClass().addClass("alert alert-warning alert-dismissible fade show d-none");
+                    if($("#form-name").val().length <= 0 || $("#form-email").val().length <= 0 || $("#form-phone").val().length <= 0 || $("#form-empresa").val().length <= 0 || $("#form-message").val().length <= 0 ) {
+                $("#alertResponse").removeClass().addClass("alert alert-danger alert-dismissible fade show");
+                $("#alertTitle").text("Campos incompletos");
+                $("#alertMessage").text("Es importante que completes todos los campos.");
+                    } else {
+                var data = {
+                        'name' : $("#form-name").val(),
+                        'form-vendeor': $("#form-vendeor").val(),
+                        'email' : $("#form-email").val(),
+                        'phone' : $("#form-phone").val(),
+                        'company' : $("#form-empresa").val(),
+                        'message' : $("#form-message").val(), 
+                    };
+                    $.ajax({
+                        beforeSend: function() {
+                        },
+                        url: 'mail/rd-mailform.php',
+                        data: data,
+                        type: 'POST',
+                        complete: function() {
+
+                        },
+                        success: function(response){
+                                console.log(response);
+                        if(response == 'MF000'){
+                            $("#alertResponse").removeClass().addClass("alert alert-success alert-dismissible fade show");
+                            $("#alertTitle").text("Correcto");
+                            $("#alertMessage").text("Tu informacion ha sido enviada.");
+                            $('#contact-form')[0].reset();
+                        }else{
+                            $("#alertResponse").removeClass().addClass("alert alert-danger alert-dismissible fade show");
+                            $("#alertTitle").text("Algo salio mal");
+                            $("#alertMessage").text("Ponte en contacto con nosotros.");
+                        }        			
+                    },
+                        error: function(){
+                                console.log('Error AJAX sendMessageByEmail');
+                        }
+                    });
+            }
+        })
+    </script>
+<!--/SendEmailScript-->
