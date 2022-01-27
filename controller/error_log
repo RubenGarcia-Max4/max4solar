@@ -1,0 +1,50 @@
+[20-May-2019 12:07:25 America/Mexico_City] PHP Warning:  file_get_contents(http://api.html2pdfrocket.com/pdf): failed to open stream: HTTP request failed! HTTP/1.1 400 Sorry, you have reached your subscriptions monthly volume limit for generating PDF's and no more can be generated in /home/max4ene/public_html/controller/crearpdf.php on line 78
+[10-Jun-2019 15:03:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected '' </div>' (T_CONSTANT_ENCAPSED_STRING) in /home/max4ene/public_html/controller/crearpdf.php on line 268
+[10-Jun-2019 15:03:54 America/Mexico_City] PHP Parse error:  syntax error, unexpected '' </div>' (T_CONSTANT_ENCAPSED_STRING) in /home/max4ene/public_html/controller/crearpdf.php on line 268
+[10-Jun-2019 15:05:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[10-Jun-2019 15:05:49 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 304
+[10-Jun-2019 15:05:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[10-Jun-2019 15:05:53 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 304
+[10-Jun-2019 15:05:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[10-Jun-2019 15:05:54 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 304
+[11-Jun-2019 10:51:18 America/Mexico_City] PHP Warning:  fopen(log/logs.txt): failed to open stream: Permission denied in /home/max4ene/public_html/controller/crearpdf.php on line 629
+[11-Jun-2019 10:51:18 America/Mexico_City] PHP Fatal error:  Call to a member function format() on null in /home/max4ene/public_html/controller/crearpdf.php on line 633
+[11-Jun-2019 11:06:18 America/Mexico_City] PHP Warning:  fopen(log/logs.txt): failed to open stream: Permission denied in /home/max4ene/public_html/controller/crearpdf.php on line 633
+[11-Jun-2019 11:06:18 America/Mexico_City] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/max4ene/public_html/controller/crearpdf.php on line 637
+[11-Jun-2019 11:06:18 America/Mexico_City] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/max4ene/public_html/controller/crearpdf.php on line 638
+[11-Jun-2019 11:07:14 America/Mexico_City] PHP Warning:  fopen(log/logs.txt): failed to open stream: Permission denied in /home/max4ene/public_html/controller/crearpdf.php on line 633
+[11-Jun-2019 11:07:14 America/Mexico_City] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/max4ene/public_html/controller/crearpdf.php on line 637
+[11-Jun-2019 11:07:14 America/Mexico_City] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/max4ene/public_html/controller/crearpdf.php on line 638
+[15-Jun-2019 02:36:18 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[15-Jun-2019 02:36:18 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 301
+[15-Jun-2019 03:13:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[15-Jun-2019 03:13:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 301
+[20-Jun-2019 13:06:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[20-Jun-2019 13:06:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 301
+[20-Jun-2019 13:31:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[20-Jun-2019 13:31:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 301
+[20-Jul-2019 11:44:47 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[20-Jul-2019 11:44:48 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 301
+[23-Jul-2019 08:34:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[23-Jul-2019 08:34:00 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 301
+[23-Jul-2019 08:34:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 255
+[23-Jul-2019 08:34:41 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 301
+[23-Jul-2019 08:49:05 America/Mexico_City] PHP Warning:  Division by zero in /home/max4ene/public_html/controller/ControllerCotizador.php on line 45
+[15-Oct-2019 12:31:43 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[15-Oct-2019 12:31:43 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[15-Oct-2019 22:46:09 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[15-Oct-2019 22:46:09 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[25-Oct-2019 15:20:01 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[25-Oct-2019 15:20:01 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[21-Nov-2019 10:46:04 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[21-Nov-2019 10:46:04 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[27-Nov-2019 08:49:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[27-Nov-2019 08:49:29 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[28-Nov-2019 07:57:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[28-Nov-2019 07:57:12 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[14-Mar-2020 21:59:44 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[14-Mar-2020 21:59:44 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[14-Apr-2020 14:10:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[14-Apr-2020 14:10:30 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295
+[14-May-2020 06:48:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 249
+[14-May-2020 06:48:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/max4ene/public_html/controller/crearpdf.php on line 295

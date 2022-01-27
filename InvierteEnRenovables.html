@@ -128,7 +128,7 @@
                            </li>
                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="ApoyoPanelesSolares2021.html">Apoyos a fondo perdido para Negocios</a>
                            </li>
-                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="ApoyoAgroindustria2021.html">Apoyos a fondo perdido para Agroindustria</a>
+                           <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="ConvocatoriaSEDRAE2022.html">Apoyos a fondo perdido para Agroindustria</a>
                            </li>
                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="ArrendamientoSolar.html">Arrendamiento Verde</a>
                           </li>
@@ -158,6 +158,63 @@
           </nav>
         </div>
       </header>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content" style="background-image: url(img/tratoHecho.webp); background-size: cover;">
+          <span class="close">&times;</span>
+          <div class="parallax-content " >
+                    <div class="container">
+                    <div class="row  flex-column-reverse flex-lg-row">
+                      <div class="col-lg-6">
+                        
+                       
+                        <form class="rd-form rd-mailform contact-form form-input-bordered" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+
+                          <div class="row row-20">
+                            <div class="col-md-12">
+                              <div class="form-wrap">
+                                <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                                <label class="form-label" for="contact-name">Nombre</label>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-wrap">
+                                <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric">
+                                <label class="form-label" for="contact-phone">Teléfono</label>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-wrap">
+                                <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                                <label class="form-label" for="contact-email">Correo Electrónico</label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-wrap">
+                                <label class="form-label" for="contact-message">Mensaje</label>
+                                <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <button class="button button-primary btn-sm" type="submit">Enviar</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col-lg-6 col-xl-5 offset-xl-40 wow fadeInRight">
+                        <h2>Cotiza y <span class="text-primary">comienza a ahorrar</span> cuanto antes.</h2>
+                        <p>Recuerda que te asesoraremos en cada etapa de tu proyecto, así reducimos el tiempo de entrega, aumentamos la confiabilidad de tu sistema de generación eléctrica y <span class="text-primary">reducimos tus costos de energía </span>al mínimo posible.</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  </div>
+        </div>
+
+      </div>
+
       <!-- Breadcrumbs-->
       <section class="bg-gray-light breadcrumbs-section">
         <div class="container">
@@ -374,5 +431,35 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+  
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+  
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+  
+      $(window).load(function(){
+         setTimeout(function() {
+        modal.style.display = "block";
+      }, 10000);
+      });
+  
+      
+  
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+  
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
   </body>
 </html>
